@@ -18,9 +18,8 @@ function bag(type, payload) {
     	// unsubscribe
       clearTimeout(this.handle);
   }
-}
+};
 
 bag(0, () => {
-	console.log("Register");
-  bag(1, "Data");
-})
+    console.log("Registered.")
+});
